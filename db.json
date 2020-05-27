@@ -1,0 +1,19 @@
+{
+  "todoList": [
+    {
+      "todo": "leadn code",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "todo": "Learn New Thing",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "todo": "dvsdv",
+      "completed": false,
+      "id": 6
+    }
+  ]
+}

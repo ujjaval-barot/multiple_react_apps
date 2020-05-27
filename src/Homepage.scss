@@ -1,0 +1,24 @@
+.avoid-select {
+    user-select: none;
+}
+
+.container {
+    padding: 50;
+}
+
+.my-container {
+    display: "flex";
+    // flex-direction: "row";
+    align-items: "center";
+    justify-content: "center";
+}
+
+.button-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: "flex";
+    flex-direction: "row";
+
+    align-items: "center";
+    justify-content: "center";
+}

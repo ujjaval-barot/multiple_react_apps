@@ -1,0 +1,89 @@
+label {
+  font-size: 14px;
+}
+
+.label-text {
+  font-size: 14px;
+  margin: 0;
+  height: 25px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  align-items: center;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 14px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper .react-datepicker__input-container {
+  /* https://github.com/Hacker0x01/react-datepicker/issues/1672 */
+  flex: 1;
+
+  /* to make it exactly the same height as the bootstrap input-group-addons */
+  display: inline;
+}
+
+.react-datepicker-wrapper input:focus {
+  .input-group-append {
+    border: solid;
+  }
+}
+
+.fileInput {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .uploadButton {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+
+    input {
+      position: absolute;
+      font-size: 25px;
+      opacity: 0;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.rc-time-picker {
+  flex: 1;
+
+  .rc-time-picker-input {
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+  }
+
+  .rc-time-picker-input[disabled] {
+    color: inherit;
+    cursor: unset;
+    background-color: #f7f8fa;
+  }
+
+  .rc-time-picker-clear {
+    top: 8px;
+  }
+}

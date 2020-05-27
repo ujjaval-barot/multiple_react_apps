@@ -1,0 +1,28 @@
+.avoid-select {
+    user-select: none;
+}
+
+.input {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    padding: 10px
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    height: 40h;
+    width: 100%;
+}
+
+.alert {
+    padding-top: 20px
+}
